@@ -974,7 +974,9 @@ body {
 .custom-blocks,
 .custom-presentation {
 	display: flex;
+	justify-content: space-around;
 	flex-wrap: wrap;
+
 }
 
 .custom-presentation-infos {
@@ -982,7 +984,7 @@ body {
 }
 
 .custom-blocks .custom-block:nth-child(2) {
-	margin: auto 2rem;
+	margin: auto 1rem;
 }
 
 .custom-blocks.center {

@@ -44,7 +44,7 @@ function lynda_setup() {
 add_action('after_setup_theme', 'lynda_setup');
 
 function lynda_init_widgets() {
-  // TODO COURS - Enregistrer une zone de widget N°1
+ // Enregistrer une zone de widget N°1
   register_sidebar(
     array(
       'id'  => 'widgets-section-1',
@@ -57,7 +57,7 @@ function lynda_init_widgets() {
     )
   );
 
-  // TODO En autonomie - Enregister les zones de widgets N°2 et N°3
+// Enregister les zones de widgets N°2 et N°3
   register_sidebar(
     array(
       'id'  => 'widgets-section-2',

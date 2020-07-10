@@ -21,7 +21,7 @@
   );
   echo '</div>';
 
-  // formulaire de commentaire
+
   comment_form(
     array(
       'title_reply'   => 'Laisser un commentaire',
