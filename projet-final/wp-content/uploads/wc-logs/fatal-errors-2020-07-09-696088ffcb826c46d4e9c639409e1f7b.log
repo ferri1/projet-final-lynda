@@ -1,0 +1,12 @@
+2020-07-09T08:43:21+00:00 CRITICAL Uncaught Error: Call to undefined function lynda_sidebar() in C:\wamp64\www\projet-final-lynda\projet-final\wp-content\themes\lynda\footer.php:7
+Stack trace:
+#0 C:\wamp64\www\projet-final-lynda\projet-final\wp-includes\template.php(723): require_once()
+#1 C:\wamp64\www\projet-final-lynda\projet-final\wp-includes\template.php(672): load_template('C:\\wamp64\\www\\p...', true)
+#2 C:\wamp64\www\projet-final-lynda\projet-final\wp-includes\general-template.php(76): locate_template(Array, true)
+#3 C:\wamp64\www\projet-final-lynda\projet-final\wp-content\themes\lynda\front-page.php(47): get_footer()
+#4 C:\wamp64\www\projet-final-lynda\projet-final\wp-includes\template-loader.php(106): include('C:\\wamp64\\www\\p...')
+#5 C:\wamp64\www\projet-final-lynda\projet-final\wp-blog-header.php(19): require_once('C:\\wamp64\\www\\p...')
+#6 C:\wamp64\www\projet-final-lynda\projet-final\index.php(17): require('C:\\wamp64\\www\\p...')
+#7 {main}
+  thrown dans C:\wamp64\www\projet-final-lynda\projet-final\wp-content\themes\lynda\footer.php à la ligne 7
+
